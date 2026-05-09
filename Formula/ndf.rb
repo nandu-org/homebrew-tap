@@ -1,24 +1,24 @@
 class Ndf < Formula
   desc "Nandu Development Framework CLI"
   homepage "https://github.com/nandu-org/nandu-dev-framework-cli"
-  version "2.0.0"
+  version "2.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/nandu-org/nandu-dev-framework-cli/releases/download/v#{version}/ndf-darwin-arm64"
-      sha256 "e5432005449a1df7c3af148925d151e1d63af6089e55071324d4ccfb36e814ea"
+      sha256 "cb71cdd03690f05f13442c4c74c4d9966a9f26454da95fb51ae6a938cc6f167a"
     end
     on_intel do
       url "https://github.com/nandu-org/nandu-dev-framework-cli/releases/download/v#{version}/ndf-darwin-amd64"
-      sha256 "91ea065ce1ea806074e29a7ddfd8e373d39afad516b5d3ed6b7b44c2a14667bd"
+      sha256 "cb6c58c6b2d9f307d0e51ffe929d9a94460a3891a41e8b0cdf808aed7d3f6369"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nandu-org/nandu-dev-framework-cli/releases/download/v#{version}/ndf-linux-amd64"
-      sha256 "4f32fe5afc960d2dda2f0ef43629d59ba0fa7b30b217b792020c31bb4f28a3b8"
+      sha256 "fe2412a48bd9caf8ebc92881835c72e8167f553e29636f22fe9faa87204590aa"
     end
   end
 
